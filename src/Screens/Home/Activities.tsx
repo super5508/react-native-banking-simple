@@ -47,6 +47,7 @@ const ActivityCard = ({ image, name, amount }: { image: any, name: string, amoun
         </View>
     );
 }
+
 export class Activities extends Component {
     render() {
         return (

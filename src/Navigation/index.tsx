@@ -5,7 +5,6 @@ import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
 import HomeScreen from '../Sreens/Home';
 import { colors } from '../utils';
 
-
 class SettingsScreen extends React.Component {
     render() {
         return (

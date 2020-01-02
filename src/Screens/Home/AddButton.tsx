@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
 });
+
 export class AddButton extends Component {
     render() {
         return (

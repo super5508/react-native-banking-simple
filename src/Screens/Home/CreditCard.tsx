@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between"
     }
 })
+
 const CardNumber = ({ number }) => {
     return (
         <Text style={styles.creditCardNumber}>
@@ -73,6 +74,7 @@ const CardNumber = ({ number }) => {
         </Text>
     )
 }
+
 export default class Home extends React.Component {
     render() {
         return (
